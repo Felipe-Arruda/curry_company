@@ -116,7 +116,7 @@ df1 = df1.loc[linhas_selecionadas, :]
 # ========================================================================      
 # Layout no Streamlit
 # ========================================================================
-tab1 = st.tabs(['Visão Gerencial'])
+tab1, tab2, tab3 = st.tabs( ['Visão Gerencial', '_', '_'] )
 
 with tab1:
     with st.container():
